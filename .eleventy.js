@@ -77,12 +77,16 @@ module.exports = function(config) {
     }
   });
 
+  const pathPrefix = process.env.ELEVENTY_ENV === 'staging' || process.env.ELEVENTY_ENV === 'development' ? '' : '11ty-test'
+  const url = process.env.ELEVENTY_ENV === 'staging' || process.env.ELEVENTY_ENV === 'development' ? 'localhost:8080' : 'https://lexoyo.me/11ty-test'
+
   return {
     dir: {
       input: 'src',
       output: 'dist'
     },
-    pathPrefix: '11ty-test',
+    url,
+    pathPrefix,
     passthroughFileCopy: true
   };
 };
