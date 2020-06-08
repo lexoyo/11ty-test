@@ -17,4 +17,5 @@ fields:
   label: tags
 pages:
 - src/posts/la-folie-des-tags-a-moly.md
+- src/posts/les-images.md
 - src/posts/test-abc.md
