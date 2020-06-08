@@ -82,6 +82,7 @@ module.exports = function(config) {
       input: 'src',
       output: 'dist'
     },
+    pathPrefix: '11ty-test',
     passthroughFileCopy: true
   };
 };
