@@ -18,7 +18,7 @@
     <updated>2020-06-08T00:00:00+00:00</updated>
     <id>https://lexoyo.me/11ty-test/11ty-test/posts/les-images/</id>
     <content type="html"><![CDATA[
-      <p><img src="/11ty-test/images/ios-7-purplr-wallpaper-desktop.jpg" alt=""></p>
+      <p><img src="/11ty-test/images/ios-7-purplr-wallpaper-desktop.jpg" alt="alt normal" title="test title"></p>
 <p>test de l'éditeur avec images</p>
 <blockquote>
 <p>aaaa</p>
