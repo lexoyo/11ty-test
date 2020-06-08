@@ -14,9 +14,9 @@
   
   <entry>
     <title>A simple post</title>
-    <link href="https://hylia.website/posts/a-simple-post/"/>
+    <link href="https://hylia.website/11ty-test/posts/a-simple-post/"/>
     <updated>2019-06-18T00:00:00+00:00</updated>
-    <id>https://hylia.website/posts/a-simple-post/</id>
+    <id>https://hylia.website/11ty-test/posts/a-simple-post/</id>
     <content type="html"><![CDATA[
       <p>A simple post to demonstrate how a normal blog post looks on Hylia. Content is
 all set in the “Body” field as markdown and Eleventy transforms it into a proper
@@ -46,9 +46,9 @@ the CMS.</p>
   
   <entry>
     <title>A post with figures and video</title>
-    <link href="https://hylia.website/posts/a-post-with-figures-and-video/"/>
+    <link href="https://hylia.website/11ty-test/posts/a-post-with-figures-and-video/"/>
     <updated>2019-06-18T00:00:00+00:00</updated>
-    <id>https://hylia.website/posts/a-post-with-figures-and-video/</id>
+    <id>https://hylia.website/11ty-test/posts/a-post-with-figures-and-video/</id>
     <content type="html"><![CDATA[
       <p>A post to demonstrate how a blog post looks on Hylia. Content is all set in the
 “Body” field as markdown and Eleventy transforms it into a proper HTML post. You
@@ -70,9 +70,9 @@ can also edit the markdown file directly if you prefer not to use the CMS.</p>
   
   <entry>
     <title>A post with code samples</title>
-    <link href="https://hylia.website/posts/a-post-with-code-samples/"/>
+    <link href="https://hylia.website/11ty-test/posts/a-post-with-code-samples/"/>
     <updated>2019-06-18T00:00:00+00:00</updated>
-    <id>https://hylia.website/posts/a-post-with-code-samples/</id>
+    <id>https://hylia.website/11ty-test/posts/a-post-with-code-samples/</id>
     <content type="html"><![CDATA[
       <p>The best way to demo a code post is to display a real life post, so check out
 this one from
@@ -108,9 +108,9 @@ about a full bleed CSS utility.</p>
   
   <entry>
     <title>test abc</title>
-    <link href="https://hylia.website/posts/test-abc/"/>
+    <link href="https://hylia.website/11ty-test/posts/test-abc/"/>
     <updated>2000-06-06T00:00:00+00:00</updated>
-    <id>https://hylia.website/posts/test-abc/</id>
+    <id>https://hylia.website/11ty-test/posts/test-abc/</id>
     <content type="html"><![CDATA[
       <p>Hic cumque soluta tempora rem consequatur ut sed. Dolores omnis fuga voluptatum consequatur deserunt aspernatur. Ratione sit hic dolor laboriosam ad accusantium. Similique officia qui dignissimos quaerat. Qui modi quam exercitationem aspernatur. Rerum consequatur ipsam ipsa sunt aliquid.</p>
 
