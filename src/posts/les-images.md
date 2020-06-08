@@ -6,7 +6,7 @@ tags:
 - images
 
 ---
-![](/11ty-test/images/ios-7-purplr-wallpaper-desktop.jpg)
+![alt normal](/11ty-test/images/ios-7-purplr-wallpaper-desktop.jpg "test title")
 
 test de l'éditeur avec images
 
