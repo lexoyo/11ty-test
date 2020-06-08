@@ -861,12 +861,12 @@ var colno = 0;
 var output = "";
 try {
 var parentTemplate = null;
-if(runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "navigation")),"items")) {
+if(runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "site")),"items")) {
 output += "\n  <nav class=\"nav\" aria-label=\"";
 output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "ariaLabel"), env.opts.autoescape);
 output += "\">\n    <ul class=\"[ nav__list ] [ box-flex align-center md:space-before ]\">\n      ";
 frame = frame.push();
-var t_3 = runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "navigation")),"items");
+var t_3 = runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "site")),"items");
 if(t_3) {t_3 = runtime.fromIterator(t_3);
 var t_2 = t_3.length;
 for(var t_1=0; t_1 < t_3.length; t_1++) {
