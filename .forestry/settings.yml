@@ -9,8 +9,10 @@ sections:
 - type: directory
   path: src/pages
   label: Pages
-  create: all
-  match: "**/*"
+  create: documents
+  match: "*"
+  exclude: ".md"
+  new_doc_ext: ".md"
 - type: directory
   path: src/posts
   label: Posts
