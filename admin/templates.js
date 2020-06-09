@@ -821,6 +821,99 @@ root: root
 
 })();
 })();
+(function() {(window.nunjucksPrecompiled = window.nunjucksPrecompiled || {})["layouts/products.njk"] = (function() {
+function root(env, context, frame, runtime, cb) {
+var lineno = 0;
+var colno = 0;
+var output = "";
+try {
+var parentTemplate = null;
+env.getTemplate("layouts/base.njk", true, "layouts/products.njk", false, function(t_3,t_2) {
+if(t_3) { cb(t_3); return; }
+parentTemplate = t_2
+for(var t_1 in parentTemplate.blocks) {
+context.addBlock(t_1, parentTemplate.blocks[t_1]);
+}
+output += "\n";
+var t_4;
+t_4 = "Page";
+frame.set("pageType", t_4, true);
+if(frame.topLevel) {
+context.setVariable("pageType", t_4);
+}
+if(frame.topLevel) {
+context.addExport("pageType", t_4);
+}
+output += "\n\n";
+output += "\n";
+var t_5;
+t_5 = runtime.contextOrFrameLookup(context, frame, "title");
+frame.set("introHeading", t_5, true);
+if(frame.topLevel) {
+context.setVariable("introHeading", t_5);
+}
+if(frame.topLevel) {
+context.addExport("introHeading", t_5);
+}
+output += "\n\n";
+(parentTemplate ? function(e, c, f, r, cb) { cb(""); } : context.getBlock("content"))(env, context, frame, runtime, function(t_7,t_6) {
+if(t_7) { cb(t_7); return; }
+output += t_6;
+output += "\n\n";
+output += runtime.suppressValue(env.getFilter("safe").call(context, runtime.contextOrFrameLookup(context, frame, "content")), env.opts.autoescape);
+output += "\n";
+if(parentTemplate) {
+parentTemplate.rootRenderFunc(env, context, frame, runtime, cb);
+} else {
+cb(null, output);
+}
+})});
+} catch (e) {
+  cb(runtime.handleError(e, lineno, colno));
+}
+}
+function b_content(env, context, frame, runtime, cb) {
+var lineno = 6;
+var colno = 3;
+var output = "";
+try {
+var frame = frame.push(true);
+output += "\n  <main id=\"main-content\" tabindex=\"-1\">\n    <article class=\"[ post ] [ h-entry ]\">\n      ";
+var tasks = [];
+tasks.push(
+function(callback) {
+env.getTemplate("partials/components/intro.njk", false, "layouts/products.njk", false, function(t_9,t_8) {
+if(t_9) { cb(t_9); return; }
+callback(null,t_8);});
+});
+tasks.push(
+function(template, callback){
+template.render(context.getVariables(), frame, function(t_11,t_10) {
+if(t_11) { cb(t_11); return; }
+callback(null,t_10);});
+});
+tasks.push(
+function(result, callback){
+output += result;
+callback(null);
+});
+env.waterfall(tasks, function(){
+output += "\n      <div class=\"[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]\">\n        ";
+output += runtime.suppressValue(env.getFilter("safe").call(context, runtime.contextOrFrameLookup(context, frame, "content")), env.opts.autoescape);
+output += "\n      </div>\n    </article>\n  </main>\n";
+cb(null, output);
+});
+} catch (e) {
+  cb(runtime.handleError(e, lineno, colno));
+}
+}
+return {
+b_content: b_content,
+root: root
+};
+
+})();
+})();
 (function() {(window.nunjucksPrecompiled = window.nunjucksPrecompiled || {})["partials/components/intro.njk"] = (function() {
 function root(env, context, frame, runtime, cb) {
 var lineno = 0;
