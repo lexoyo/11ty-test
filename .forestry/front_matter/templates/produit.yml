@@ -1,4 +1,42 @@
 ---
 label: Produit
 hide_body: false
-fields: []
+fields:
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: price
+  type: number
+  label: Prix
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: available
+  type: select
+  default: available
+  config:
+    required: true
+    options:
+    - available
+    - temporary unavailable
+    - permanently unavailable
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Disponibilité
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
