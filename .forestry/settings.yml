@@ -12,6 +12,8 @@ sections:
   create: documents
   match: "**/*.md"
   new_doc_ext: md
+  templates:
+  - produit
 - type: directory
   path: src/pages
   label: Pages
