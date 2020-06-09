@@ -1,7 +1,7 @@
 ---
-price: 100
+price: 10
 available: available
-description: test cousette 1
+description: test cousette 2
 photos:
 - "/11ty-test/images/demo-image-1.jpg"
 title: ''
