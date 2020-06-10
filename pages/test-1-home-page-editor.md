@@ -24,8 +24,11 @@ test_group:
     second_line: []
     third_line: ''
 header:
-  first_line: ''
-  second_line: []
-  third_line: ''
+  first_line: 'Are you looking for :'
+  second_line:
+  - 'A free Elementor alternative '
+  - Faster than wordpress website A free Elementor
+  - 100 % free website builder
+  third_line: You are in the right place !
 
 ---
