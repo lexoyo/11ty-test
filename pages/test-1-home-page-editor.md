@@ -8,5 +8,16 @@ test_group:
   title: test 1
   tags:
   - test
+- template: test
+  test_group:
+  - template: post
+    date: '2020-06-10'
+    title: ''
+    tags: []
+    galery: []
+  title: ''
+  text1: ''
+  text_2: ''
+  text_3: ''
 
 ---
