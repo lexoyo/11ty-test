@@ -19,5 +19,13 @@ test_group:
   text1: ''
   text_2: ''
   text_3: ''
+  header:
+    first_line: ''
+    second_line: []
+    third_line: ''
+header:
+  first_line: ''
+  second_line: []
+  third_line: ''
 
 ---
