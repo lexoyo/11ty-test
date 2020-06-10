@@ -3,6 +3,7 @@ price: 10
 available: available
 description: test cousette 2
 photos:
+- "/11ty-test/images/favicon.png"
 - "/11ty-test/images/demo-image-1.jpg"
 title: ''
 
