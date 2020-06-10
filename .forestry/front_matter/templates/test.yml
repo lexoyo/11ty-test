@@ -44,5 +44,27 @@ fields:
   config:
     min: 
     max: 
+- name: header
+  type: field_group
+  config: {}
+  fields:
+  - name: first_line
+    type: text
+    config:
+      required: false
+    label: First line
+  - name: second_line
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Second line
+  - name: third_line
+    type: text
+    config:
+      required: false
+    label: Third line
+  label: header
 pages:
 - pages/test-1-home-page-editor.md
