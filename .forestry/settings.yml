@@ -34,13 +34,12 @@ sections:
   label: 'Test pages '
   create: documents
   match: "**/*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - test
 - type: document
   path: home-test
   label: 'Test Home Page '
-  match: "**/*"
 - type: heading
   label: Globals
 - type: document

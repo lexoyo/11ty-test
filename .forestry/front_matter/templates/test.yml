@@ -34,3 +34,5 @@ fields:
     schema:
       format: markdown
   label: Text 3
+pages:
+- pages/test-1-home-page-editor.md
