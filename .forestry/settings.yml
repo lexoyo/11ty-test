@@ -29,6 +29,14 @@ sections:
   match: "*.md"
   templates:
   - post
+- type: directory
+  path: pages
+  label: 'Test pages '
+  create: documents
+  match: "**/*.md"
+  new_doc_ext: ".md"
+  templates:
+  - test
 - type: document
   path: home-test
   label: 'Test Home Page '
