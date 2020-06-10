@@ -34,5 +34,15 @@ fields:
     schema:
       format: markdown
   label: Text 3
+- name: test_group
+  type: blocks
+  label: test group
+  template_types:
+  - test
+  - page
+  - post
+  config:
+    min: 
+    max: 
 pages:
 - pages/test-1-home-page-editor.md
